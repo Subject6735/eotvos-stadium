@@ -1,0 +1,43 @@
+@import url('style.css');
+
+main {
+    display: grid;
+    gap: 1rem;
+    padding: 100px;
+    place-content: center;
+    grid-template:
+        'intro' 1fr
+        'teams' 1fr
+        'matches' 1fr
+        / 1fr;
+}
+
+main > * {
+    place-self: center;
+}
+
+div.intro {
+    grid-area: intro;
+    text-align: center;
+}
+
+div.teams {
+    grid-area: teams;
+}
+
+div.matches {
+    grid-area: matches;
+}
+
+h1,
+h2 {
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: '\26BD';
+}
+
+ul > li {
+    margin-bottom: 10px;
+}

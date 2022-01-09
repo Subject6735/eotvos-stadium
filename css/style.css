@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --light-color: rgb(212, 239, 255);
+    --dark-color: rgb(27, 30, 43);
+}
+
+* {
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main layout */
+
+body {
+    color: var(--light-color);
+    background-color: var(--dark-color);
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+
+    height: 100vh;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+header {
+    border-bottom: 1px solid var(--light-color);
+    padding: 30px;
+
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 6fr auto auto;
+    grid-template-areas: 'title . register login';
+    gap: 1rem;
+
+    justify-self: center;
+    align-self: start;
+
+    width: 100%;
+
+    font-size: 1.5rem;
+}
+
+header > * {
+    place-self: center;
+}
+
+header div.title {
+    grid-area: title;
+}
+
+header div.title a {
+    text-decoration: none;
+}
+
+header div.title a:visited,
+header div.title a:visited:hover,
+header div.title a:hover {
+    color: var(--light-color);
+}
+
+header div.logout span {
+    font-size: 0.9rem;
+    margin-left: 20px;
+    text-align: center;
+}
+
+main {
+    place-self: center;
+}
+
+footer {
+    border-top: 1px solid var(--light-color);
+    padding: 30px;
+
+    justify-self: center;
+    align-self: end;
+
+    text-align: center;
+    width: 100%;
+
+    font-size: 0.9rem;
+}
+
+/* Links */
+
+a.register {
+    grid-area: register;
+}
+
+a.login,
+div.logout {
+    grid-area: login;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.button {
+    color: var(--dark-color) !important;
+    background-color: var(--light-color);
+
+    border: 1px solid var(--light-color);
+    border-radius: 25px;
+    padding: 10px;
+
+    text-decoration: none;
+    text-align: center;
+    width: fit-content;
+}
+
+a.button:hover {
+    color: var(--light-color) !important;
+    background-color: var(--dark-color);
+    cursor: pointer;
+}
+
+a {
+    color: rgb(81, 243, 243);
+}
+
+a:hover {
+    color: rgb(73, 112, 240);
+}
+
+a:visited {
+    color: rgb(73, 240, 162);
+}
+
+a:visited:hover {
+    color: rgb(30, 165, 102);
+}
+
+.error {
+    font-weight: bold;
+    color: orangered;
+}
+
+.won {
+    color: rgb(90, 226, 90);
+}
+
+.tie {
+    color: rgb(236, 236, 115);
+}
+
+.lost {
+    color: rgb(235, 60, 60);
+}

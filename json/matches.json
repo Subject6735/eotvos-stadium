@@ -1,0 +1,94 @@
+{
+    "match01": {
+        "id": "match01",
+        "home": {
+            "id": "beta02",
+            "score": 3
+        },
+        "away": {
+            "id": "alpha01",
+            "score": 5
+        },
+        "date": "2021-10-25"
+    },
+    "match02": {
+        "id": "match02",
+        "home": {
+            "id": "beta02",
+            "score": 3
+        },
+        "away": {
+            "id": "alpha01",
+            "score": 3
+        },
+        "date": "2021-11-27"
+    },
+    "match03": {
+        "id": "match03",
+        "home": {
+            "id": "gamma03",
+            "score": 2
+        },
+        "away": {
+            "id": "beta02",
+            "score": 2
+        },
+        "date": "2021-11-13"
+    },
+    "match04": {
+        "id": "match04",
+        "home": {
+            "id": "gamma03",
+            "score": 1
+        },
+        "away": {
+            "id": "alpha01",
+            "score": 1
+        },
+        "date": "2021-12-12"
+    },
+    "match05": {
+        "id": "match05",
+        "home": {
+            "id": "alpha01",
+            "score": 2
+        },
+        "away": {
+            "id": "gamma03",
+            "score": 3
+        },
+        "date": "2021-12-20"
+    },
+    "match06": {
+        "id": "match06",
+        "home": {
+            "id": "beta02",
+            "score": 2
+        },
+        "away": {
+            "id": "gamma03",
+            "score": 3
+        },
+        "date": "2022-01-03"
+    },
+    "match07": {
+        "id": "match07",
+        "home": {
+            "id": "beta02"
+        },
+        "away": {
+            "id": "alpha01"
+        },
+        "date": "2022-02-13"
+    },
+    "match08": {
+        "id": "match08",
+        "home": {
+            "id": "gamma03"
+        },
+        "away": {
+            "id": "alpha01"
+        },
+        "date": "2022-02-26"
+    }
+}

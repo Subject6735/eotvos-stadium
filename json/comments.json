@@ -1,0 +1,44 @@
+{
+    "61d99a9b47ab7": {
+        "author": "admin",
+        "text": "Nice match!",
+        "teamid": "alpha01",
+        "date": "2022.01.08 15:07",
+        "id": "61d99a9b47ab7"
+    },
+    "61d99aa88d131": {
+        "author": "admin",
+        "text": "That was a close one!",
+        "teamid": "gamma03",
+        "date": "2022.01.08 15:07",
+        "id": "61d99aa88d131"
+    },
+    "61d99adc30a1e": {
+        "author": "user",
+        "text": "You'll get it next time!",
+        "teamid": "alpha01",
+        "date": "2022.01.08 15:08",
+        "id": "61d99adc30a1e"
+    },
+    "61d99b04e3a7b": {
+        "author": "user",
+        "text": "You are my favorite team!",
+        "teamid": "beta02",
+        "date": "2022.01.08 15:09",
+        "id": "61d99b04e3a7b"
+    },
+    "61d99b1a12031": {
+        "author": "user",
+        "text": "I wish I could have been there!",
+        "teamid": "gamma03",
+        "date": "2022.01.08 15:09",
+        "id": "61d99b1a12031"
+    },
+    "61da9774189b6": {
+        "author": "testuser",
+        "text": "Your last match was very exciting!",
+        "teamid": "gamma03",
+        "date": "2022.01.09 09:06",
+        "id": "61da9774189b6"
+    }
+}

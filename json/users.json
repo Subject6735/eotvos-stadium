@@ -1,0 +1,38 @@
+{
+    "61c06efc1f9ed": {
+        "username": "admin",
+        "email": "admin@elstadion.hu",
+        "password": "$2y$10$1p7bwU0kTtGGTSH7GnoiGuUe5Z6pipy\/lpSt00e9fB9OggeTbqD82",
+        "roles": [
+            "admin"
+        ],
+        "id": "61c06efc1f9ed"
+    },
+    "61c065483fd2f": {
+        "username": "user",
+        "email": "email@email.com",
+        "password": "$2y$10$NnK3ovQhD\/njybCJujkjcuXR4g9jevpEJZjw7oS\/wNht0rgTOjaiO",
+        "roles": [
+            "user"
+        ],
+        "id": "61c065483fd2f"
+    },
+    "61d158c20a951": {
+        "username": "user2",
+        "password": "$2y$10$6qAE7dMgrzAyZwFn2Zo2NeXMChBashjZl6g7rKqNgp3hOM0pfaBxy",
+        "email": "email2@email.com",
+        "roles": [
+            "user"
+        ],
+        "id": "61d158c20a951"
+    },
+    "61da9722a0290": {
+        "username": "testuser",
+        "password": "$2y$10$XFvdotX8ZnBeaWHEETvje.RD9.QUj.JsGttMxtcINAUuFM\/0\/s.q.",
+        "email": "testuser@gmail.com",
+        "roles": [
+            "user"
+        ],
+        "id": "61da9722a0290"
+    }
+}

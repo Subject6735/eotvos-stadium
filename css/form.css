@@ -1,0 +1,64 @@
+@import url('style.css');
+
+h1 {
+    margin-bottom: 30px;
+}
+
+div.formdiv {
+    margin-bottom: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 1rem;
+    place-content: center;
+}
+
+span.text,
+span.error {
+    justify-self: start;
+    align-self: center;
+    font-weight: bold;
+}
+
+span.error.global {
+    margin-bottom: 30px;
+}
+
+input {
+    color: var(--dark-color);
+    background-color: var(--light-color);
+
+    border: 1px solid var(--light-color);
+    border-radius: 25px;
+    padding: 20px;
+
+    width: 30rem;
+
+    justify-self: start;
+    align-self: center;
+
+    font-size: 1.1rem;
+}
+
+button {
+    color: var(--dark-color);
+    background-color: var(--light-color);
+
+    border: 1px solid var(--light-color);
+    border-radius: 25px;
+    padding: 20px;
+
+    width: fit-content;
+
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+button:hover {
+    color: var(--light-color);
+    background-color: var(--dark-color);
+
+    cursor: pointer;
+}

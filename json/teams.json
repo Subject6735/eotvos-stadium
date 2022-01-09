@@ -1,0 +1,17 @@
+{
+    "alpha01": {
+        "id": "alpha01",
+        "name": "Alpha Team",
+        "city": "Alpha City"
+    },
+    "beta02": {
+        "id": "beta02",
+        "name": "Beta Team",
+        "city": "Beta City"
+    },
+    "gamma03": {
+        "id": "gamma03",
+        "name": "Gamma Team",
+        "city": "Gamma City"
+    }
+}
